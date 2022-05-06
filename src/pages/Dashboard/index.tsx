@@ -114,7 +114,7 @@ export function Dashboard() {
   }
 
   return (
-    <section className="w-full h-[85vh] bg-background rounded-b-[30px] overflow-auto scrollbar scrollbar-thin scrollbar-thumb-zinc-300">
+    <section className="w-full h-[85vh] bg-background rounded-b-[30px] overflow-auto scrollbar-thin scrollbar-thumb-zinc-300">
       <article className="p-8 w-full flex flex-col gap-12 ">
         <div className="flex flex-col gap-6">
           <h1 className="text-lg font-bold text-primary">Informações Gerais</h1>

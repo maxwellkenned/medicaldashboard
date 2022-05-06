@@ -89,14 +89,14 @@ export function Patients() {
   }
 
   return (
-    <section className="h-[85vh] w-full bg-background rounded-b-[30px] overflow-auto scrollbar scrollbar-thin scrollbar-thumb-zinc-300">
-      <article className="py-8 h-full flex flex-col gap-12">
+    <section className="h-[85vh] w-full bg-background rounded-b-[30px] overflow-auto scrollbar-thin scrollbar-thumb-zinc-300">
+      <article className="py-8 flex flex-col gap-12">
         <div className="flex flex-col px-8 w-full h-full gap-6">
           <h1 className="flex items-center text-lg font-bold text-primary gap-2">
             Atualizações de pacientes
           </h1>
           <div className="w-full bg-white rounded-md drop-shadow-[0_8px_26px_rgba(71,87,122,0.08)] hover:drop-shadow-[0_8px_26px_rgba(71,87,122,0.3)]">
-            <div className="flex gap-4 p-4 flex-nowrap overflow-x-auto scrollbar scrollbar-thin scrollbar-thumb-zinc-100 hover:scrollbar-thumb-zinc-400">
+            <div className="flex gap-4 p-4 flex-nowrap overflow-x-auto scrollbar-thin scrollbar-thumb-zinc-100 hover:scrollbar-thumb-zinc-400">
               {renderTests()}
             </div>
           </div>

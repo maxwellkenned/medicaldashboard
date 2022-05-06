@@ -15,7 +15,7 @@ body {
   @apply font-poppins;
   background: url('assets/img/background.png'),
     linear-gradient(107.65deg, #1042dd 0.43%, hsl(177, 66%, 42%) 100%);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
 }
 
