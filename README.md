@@ -19,3 +19,7 @@ npm run dev
 # or
 yarn dev
 ```
+
+## DEMO
+
+<img src="./demo.png" alt="demo" />
