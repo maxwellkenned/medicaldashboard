@@ -1,0 +1,44 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply h-full;
+  @apply overflow-hidden;
+}
+
+body {
+  @apply font-poppins;
+  background: url('assets/img/background.png'),
+    linear-gradient(107.65deg, #1042dd 0.43%, hsl(177, 66%, 42%) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.inverted-border-radius::after {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  top: -50px;
+  right: 0;
+  height: 50px;
+  width: 40px;
+  border-bottom-right-radius: 40px 27px;
+  box-shadow: 0 25px 0 0 #eff2f9;
+}
+
+.inverted-border-radius::before {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  bottom: -50px;
+  right: 0;
+  height: 50px;
+  width: 40px;
+  border-top-right-radius: 40px 27px;
+  box-shadow: 0 -25px 0 0 #eff2f9;
+}
